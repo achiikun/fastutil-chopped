@@ -34,7 +34,7 @@ The script has a harcoded reference to all the files in the original project, th
 
 ### Step 4 - Install/Deploy...
 
-The chopped version of fastutil contains **127** submodules!! Basically every kind of biglist, set, map and priority que has its own module. Arrays and Lists are compacted into a single module due to their complex interdependencies.
+The chopped version of fastutil contains **127** submodules!! Basically every kind of biglist, set, map and priority queue has its own module. Arrays and Lists are compacted into a single module due to their complex interdependencies.
 
 To install the project:
 
