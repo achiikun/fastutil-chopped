@@ -1,0 +1,5 @@
+    <dependency>
+      <groupId>${project.groupId}</groupId>
+      <artifactId>@DEPENDENCY_ARTIFACT_ID@</artifactId>
+      <version>${project.version}</version>
+    </dependency>

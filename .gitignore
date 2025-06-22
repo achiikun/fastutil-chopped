@@ -1,0 +1,9 @@
+# Any hidden folder
+.*
+!.gitignore
+
+# If these file still exist
+**/*.pyc
+
+# Output folder
+maven-project
