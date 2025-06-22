@@ -2,7 +2,7 @@
 
 Vigna's [fastutil](https://github.com/vigna/fastutil) is a great library, very performant, very useful, but the **jar dependency** takes more that **22Mb** compressed.
 
-The target of this project is to build the original fastutil project (linked as a submodule), build it and create a multimodule **maven** project in order to reduce future dependent projects size (by importing only what they need).
+The target of this project is to build the original fastutil project (linked as a submodule), and copy carefully all the _.java_ files into a multimodule **maven** project in order to reduce future dependent projects' size (as they will be able to import only the submodules they need).
 
 Yes, this is a **python** project. I am adding this tool as an additional dependency besides java, maven, make, ant and cc because I prefer _python_ way longer than _shell_ scripting as a scripting language.
 
@@ -18,7 +18,7 @@ Go into fastutil with `cd fastutil` and follow the instructions into the [fastut
 ### Step 2 - Configure
 
 - `cd ..` to get back to repo root.
-- Modify the file `pom-extra.template.xml` to fill wour needs, this file will be inserted inside the parent pom and lets you add deployment repositories and/or packaging repositories. Basically fill the `<build>` tag of the root pom.
+- Modify the file `pom-extra.template.xml` to fill your needs, this file will be inserted inside the parent pom and lets you add deployment repositories and/or packaging repositories. Basically fill the `<build>` tag of the root pom.
 
 ### Step 3 - Make the breakdown
 
