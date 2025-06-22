@@ -1,4 +1,4 @@
-# Fastutil breakdown
+# Fastutil chopped
 
 Vigna's [fastutil](https://github.com/vigna/fastutil) is a great library, very performant, very useful, but the **jar dependency** takes more that **22Mb** compressed.
 
