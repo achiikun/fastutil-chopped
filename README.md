@@ -13,7 +13,7 @@ Assure you cloned the repository recursively and `fastutil` contains the raw fas
 
 ### Step 1 - Make original fastutil
 
-Go into fastutil with `cd fastutil` and follow the instructions into the [README.md](fastutil/README.md) to generate all sources. It will require to execute `make sources` to generate them into the `src/` folder.
+Go into fastutil with `cd fastutil` and follow the instructions into the [fastutil/README.md](https://github.com/vigna/fastutil/blob/master/README.md) to generate all sources. It will require to execute `make sources` to generate them into the `src/` folder.
 
 ### Step 2 - Configure
 
